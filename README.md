@@ -62,10 +62,33 @@ A **local host** is nothing but a local web server that actually runs on your ow
 
 ![Install bWAPP](screenshots/bwapp_install.png)
 
+
 ### Troubleshooting Installation Errors
+If you encounter an error during the bWAPP installation, follow these steps:
 
-If you encounter an error like this:
+1. **Error Message**:
+    - You might see an error message like this in your browser:
 
+    ![Error Message](screenshots/error-query.png)
+
+2. **Edit `installation.php`**:
+    - Open the `installation.php` file located in the `bWAPP` directory.
+    - Add the following line of code at line 20:
+
+    ```php
+    mysqli_report(MYSQLI_REPORT_STRICT);
+    ```
+
+    - Your `installation.php` file should look like this after editing:
+
+    ![Editing `installation.php`](screenshots/installation-php.png)
+
+3. **Reference for Solution**:
+    - This line of code helps to solve the error by enabling exception reporting for MySQLi. You can refer to this solution on the [mysqli_select_db](https://www.php.net/manual/en/mysqli.report.php) page.
+
+    ![Solution Reference](screenshots/error-solving.png)
+
+After making this change, try the installation process again. This should resolve the error and allow you to proceed with the setup.
 
 
 ![Edit settings.php](screenshots/bwapp_path.png)
