@@ -6,14 +6,10 @@ I'm back today with a tutorial on bWAPP installation!
 
 ## What is bWAPP?
 
-**bWAPP** is a free and open-source deliberately insecure web application. It helps security enthusiasts, developers, and students to discover and prevent web vulnerabilities. bWAPP covers all major known web vulnerabilities, including all risks from the [OWASP Top 10](https://owasp.org/www-project-top-ten/) project! It's for security-testing and educational purposes only.
-
-In simple terms, bWAPP is a buggy web app loaded with vulnerabilities, made for practicing how to defend against real-life web app bugs—legally!
+**bWAPP** is a free and open-source deliberately insecure web application.bWAPP covers all major known web vulnerabilities, 
+In simple terms, bWAPP is a buggy web app loaded with vulnerabilities, made for practicing how to defend against real-life web app bugs—legally! It's for security-testing and educational purposes only.
 
 Hope no one wants to go to jail, so you can practice here in a safe environment! 😄
-
-Security researchers, beginners, and bug hunters use this buggy web app to develop their knowledge on how a real target would react to an actual bug.
-
 ---
 
 ## Let's Get Started with the Installation Steps:
