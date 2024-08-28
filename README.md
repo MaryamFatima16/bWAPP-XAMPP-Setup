@@ -64,8 +64,7 @@ A **local host** is nothing but a local web server that actually runs on your ow
 
 
 ### Troubleshooting Installation Errors
-If you encounter an error during the bWAPP installation, follow these steps:
-
+If you encounter an error during the bWAPP installation, follow these steps , [Click here to watch the error rectification]([https://www.youtube.com/watch?v=T9NbyQyYhNE])
 1. **Error Message**:
     - You might see an error message like this in your browser:
 
