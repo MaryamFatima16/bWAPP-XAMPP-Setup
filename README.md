@@ -2,8 +2,7 @@
 
 Hey Guys! 👋
 
-I'm back today with a tutorial on bWAPP installation!
-
+I'm back today with a tutorial on installing bWAPP in the Xampp server! In this guide, I've simplified the installation process for everyone and included details on the challenges I faced, along with solutions and helpful links. I hope you find it useful!
 ## What is bWAPP?
 
 **bWAPP** is a free and open-source deliberately insecure web application. bWAPP covers all major known web vulnerabilities. In simple terms, bWAPP is a buggy web app loaded with vulnerabilities, made for practicing how to defend against real-life web app bugs—legally! It's for security-testing and educational purposes only.
