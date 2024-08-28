@@ -49,6 +49,7 @@ A **local host** is nothing but a local web server that actually runs on your ow
 - **Download bWAPP**: [Click here to download bWAPP](https://sourceforge.net/projects/bwapp/).
 - **Before Downloading**: 
     - Turn off Windows Defender and other antivirus software to prevent them from detecting bWAPP as a virus.
+    - ![bWAPP Download](screenshots/bwapp.png)
 - **Extract and Install**:
     - Extract the downloaded ZIP file.
     - Copy the `bWAPP` folder from `bWAPP_latest` and paste it into the `C:\xampp\htdocs` directory.
@@ -65,14 +66,7 @@ A **local host** is nothing but a local web server that actually runs on your ow
 
 If you encounter an error like this:
 
-![bWAPP Error](screenshots/bwapp.png)
 
-This happens because the connection username and password are set in a specific format.
-
-- **Fix the Error**:
-    - Go to the `settings.php` file in the `bWAPP` folder.
-    - Change the `db_password` from `bug` to nothing (empty string).
-    - Save the changes.
 
 ![Edit settings.php](screenshots/bwapp_path.png)
 ![Save Changes](screenshots/bwapp_path.png)
