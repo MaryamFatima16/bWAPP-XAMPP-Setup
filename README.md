@@ -29,17 +29,17 @@ A **local host** is nothing but a local web server that actually runs on your ow
     - After downloading, click the `install-xampp-exe.png` file to install.
     - Follow the installation steps, and finally, click **Finish** to start the XAMPP Control Panel.
 
-![Install XAMPP](xampp-install-finish.png)
+![Install XAMPP](screenshots/xampp-install-finish.png)
 
 - **Start the Server**:
     - Upon starting XAMPP, it will ask for administrator access. Allow it to run!
 
-![Allow Access](access-allow.png)
+![Allow Access](screenshots/access-allow.png)
 
 - **Control Panel**:
     - Start the **Apache** and **MySQL** services as shown below.
 
-![XAMPP Control Panel](xampp_control.png)
+![XAMPP Control Panel](screenshots/xampp_control.png)
 
     - To run your XAMPP server later, navigate to the parent directory where XAMPP is installed: `C:\xampp`.
     - Click `xampp-control.exe` to start the MySQL and Apache servers.
@@ -53,19 +53,19 @@ A **local host** is nothing but a local web server that actually runs on your ow
     - Extract the downloaded ZIP file.
     - Copy the `bWAPP` folder from `bWAPP_latest` and paste it into the `C:\xampp\htdocs` directory.
 
-![Paste bWAPP Folder](pasted_bwapp.png)
+![Paste bWAPP Folder](screenshots/pasted_bwapp.png)
 
 - **Run bWAPP**:
     - Open Chrome (or any browser) and type `http://localhost/bWAPP/install.php`.
     - Click to install bWAPP.
 
-![Install bWAPP](bwapp_install.png)
+![Install bWAPP](screenshots/bwapp_install.png)
 
 ### Troubleshooting Installation Errors
 
 If you encounter an error like this:
 
-![bWAPP Error](bwapp.png)
+![bWAPP Error](screenshots/bwapp.png)
 
 This happens because the connection username and password are set in a specific format.
 
@@ -74,13 +74,13 @@ This happens because the connection username and password are set in a specific 
     - Change the `db_password` from `bug` to nothing (empty string).
     - Save the changes.
 
-![Edit settings.php](bwapp_path.png)
-![Save Changes](bwapp_path.png)
+![Edit settings.php](screenshots/bwapp_path.png)
+![Save Changes](screenshots/bwapp_path.png)
 
 - **Complete Installation**:
     - After editing the `settings.php` file, click "Install" again.
 
-![bWAPP Installed Successfully](sucessfully_install_bwapp.png)
+![bWAPP Installed Successfully](screenshots/sucessfully_install_bwapp.png)
 
 ### Step 3: Log in to bWAPP
 
@@ -88,13 +88,13 @@ This happens because the connection username and password are set in a specific 
     - **Username**: `bee`
     - **Password**: `bug`
   
-![Login to bWAPP](bwapp_login.png)
+![Login to bWAPP](screenshots/bwapp_login.png)
 
 ### Start Practicing!
 
 You can now practice with any vulnerability you desire within this safe environment!
 
-![bWAPP Final](final_bwapp.png)
+![bWAPP Final](screenshots/final_bwapp.png)
 
 ---
 
